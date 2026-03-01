@@ -18,8 +18,8 @@ target "_common_multi_platforms" {
 
 target "_common_tags" {
   tags = [
-    "ghcr.io/enoqv/gitea-backup:latest",
-    "ghcr.io/enoqv/gitea-backup:${VERSION}"
+    "ghcr.io/enoqv/backup-base:latest",
+    "ghcr.io/enoqv/backup-base:${VERSION}"
   ]
 }
 
